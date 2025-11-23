@@ -1,0 +1,36 @@
+
+    body {
+      font-family: Arial;
+      background: linear-gradient(135deg, #4dabf7, #5c7cfa);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      color: white;
+    }
+    .box {
+      width: 340px;
+      background: rgba(255,255,255,0.15);
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      margin-bottom: 10px;
+    }
+    button {
+      background: #364fc7;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .temp {
+      font-size: 40px;
+      margin: 10px 0;
+    }
